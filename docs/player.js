@@ -14,3 +14,21 @@ function action(oppornent){
   }
   return PA;
 }
+
+
+//練習4
+function abs(value){
+   let result = value;
+   if(result < 0){
+     result = result * -1;
+   }
+   return result;
+}
+
+//練習5
+function distance(x , y){
+ let result = 0;
+ result = y - x;
+ result = abs(result);
+ return result;
+}
